@@ -18,7 +18,7 @@ test('Check Button Clicked State', () => {
 });
 
 // Extra tests!!
-// Testing clicked twice, should revert back to clicked. 
+// Testing clicked twice, should revert back to 'Click Me'
 test('Check Button Clicked Back State', () => {
     render(<Default/>);
     fireEvent.click(screen.getByRole('button'));
